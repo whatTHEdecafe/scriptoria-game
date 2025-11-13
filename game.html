@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sriptoria</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <h1> Scriptoria Adventure Game</h1>
+    <p>
+        <b>Commands</b>:
+        move &lt;location name&gt;, inventory, search, pick-up &lt;item name&gt;, use &lt;item name&gt;, attack &lt;monster
+        name&gt;<br>
+        <span id="exampleLine">"example: pick-up smelly socks"</span>
+    </p>
+    <div id="information">
+        Location: -- | HP: -- | Attack Power: -- | Equipped: --
+    </div>
+    <br>
+    <div>
+        <input type="text" id="commandInput" placeholder="Type command here...">
+        <button id="enterButton" class="button">Enter</button>
+        <button id="beginButton" class="button">Start Game</button>   
+    </div>
+    <br>
+    <div id="displayOutput" >When you are ready press Start Game to play.</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

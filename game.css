@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.button {
+    font-size: xx-large;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+#displayOutput {
+    white-space: pre-line;
+}
+
+#exampleLine {
+    /* display:block;
+    text-align: left;
+    margin-left: 5%; */
+    font-style: italic;
+}
+
+#commandInput{
+    font-size: xx-large;
+    font-style: italic;
+    border-radius: 10px;
+}
